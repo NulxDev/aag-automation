@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background: #0f1117;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background: #5b8cff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.price-box {
+    margin: 20px 0;
+}
+
+.original {
+    text-decoration: line-through;
+    opacity: 0.6;
+    margin-right: 10px;
+}
+
+.discount {
+    color: #00ff9f;
+    font-weight: bold;
+}
+
+.price-box h2 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.btn-cta {
+    display: inline-block;
+    background: linear-gradient(90deg, #5b8cff, #7b5bff);
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.large {
+    font-size: 1.2rem;
+    padding: 18px 40px;
+}
+
+.features, .social-proof, .faq {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1a1d26;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.testimonials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonial {
+    background: #1a1d26;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(90deg, #1f2230, #141621);
+}
+
+.faq-item {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background: #1a1d26;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background: #141621;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0b0c11;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.sticky-cta {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #5b8cff;
+    text-align: center;
+    padding: 15px;
+}
+
+.sticky-cta a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
