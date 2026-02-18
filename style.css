@@ -202,9 +202,19 @@ nav a {
 }
 
 .faq-answer {
-    display: none;
-    padding: 15px;
-    color: #a0a0a0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+    color: #aaa;
+    padding: 0 18px;
+}
+
+.faq-item.active .faq-answer {
+    opacity: 1;
+    padding: 15px 18px;
+}
+
 }
 
 footer {
